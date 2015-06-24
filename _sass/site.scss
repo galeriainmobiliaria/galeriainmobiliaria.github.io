@@ -1,0 +1,49 @@
+//form default color
+$input-focus-color: color("green", "darken-1");
+//for active / filled out color
+$input-border-color: color("grey", "darken-3");
+
+body {
+  min-height: 100%;
+}
+
+main {
+  min-height: 100%;
+}
+
+nav {
+  height: 70px;
+  position: fixed;
+}
+
+#intro {
+  height: 93%;
+  padding-top: 100px;
+  background-position: bottom;
+  background-image: url(/img/bogota1.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#pitch {
+  padding: 35px;
+}
+
+footer {
+  margin-top: 20px;
+	padding-top: 20px;
+}
+
+
+#pagelogo {
+  margin-top: 100px;
+  max-height: 177px;
+}
+
+#mobile-store-logos {
+  margin: 10px 0;
+}
+
+span {
+	background-color: rgba(69,69,62,0.50);
+}

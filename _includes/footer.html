@@ -1,0 +1,28 @@
+<footer class="page-footer grey lighten-3">
+  <div class="container">
+    <h5 class="center"> {{ site.data.es.contact_us }} </h5>
+    <form action="//formspree.io/soporte@mybusapp.co" method="POST">
+      <div class="input-field">
+        <input type="text" name="name">
+        <label for="name">{{ site.data.es.contact_form_name }}</label>
+      </div>
+      <div class="input-field">
+        <input type="email" name="_replyto">
+        <label for="name">{{ site.data.es.contact_form_email }}</label>
+      </div>
+      <div class="input-field">
+        <textarea name="body" class="materialize-textarea"></textarea>
+        <label for="body">{{ site.data.es.contact_form_message }}</label>
+      </div>
+      <input type="submit" value="{{ site.data.es.contact_form_send }}" class="green btn">
+    </form>
+		<br>
+  </div>
+  <div class="footer-copyright">
+    <div class="container black-text center">
+     	Dirección: {{ site.data.links.address}}
+			Teléfono: {{site.data.links.phone}}
+      <a class="black-text right" href="{{ site.data.links.address }}"> {{ site.data.es.address }} </a>
+    </div>
+  </div>
+</footer>
