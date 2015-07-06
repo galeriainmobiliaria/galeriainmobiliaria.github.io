@@ -1,28 +1,32 @@
-<footer class="page-footer grey lighten-3">
+<footer>
   <div class="container">
     <h5 class="center"> {{ site.data.es.contact_us }} </h5>
-    <form action="//formspree.io/soporte@mybusapp.co" method="POST">
-      <div class="input-field">
-        <input type="text" name="name">
-        <label for="name">{{ site.data.es.contact_form_name }}</label>
-      </div>
-      <div class="input-field">
-        <input type="email" name="_replyto">
-        <label for="name">{{ site.data.es.contact_form_email }}</label>
-      </div>
-      <div class="input-field">
-        <textarea name="body" class="materialize-textarea"></textarea>
-        <label for="body">{{ site.data.es.contact_form_message }}</label>
-      </div>
-      <input type="submit" value="{{ site.data.es.contact_form_send }}" class="green btn">
-    </form>
-		<br>
-  </div>
-  <div class="footer-copyright">
-    <div class="container black-text center">
-     	Dirección: {{ site.data.links.address}}
-			Teléfono: {{site.data.links.phone}}
-      <a class="black-text right" href="{{ site.data.links.address }}"> {{ site.data.es.address }} </a>
-    </div>
-  </div>
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m12 s12">
+					<h5>Oficina Principal</h5>
+					<ul>
+						<li>Dirección: Calle 103 No. 18ª-48 oficina 502</li>
+						<li>PBX: 6234484</li>
+					</ul>
+					<h5>Emails</h5>
+					<ul>
+						<li>galeriamas@fincaraiz.com</li>
+						<li>lgi.panama@fincaraiz.com</li>
+					</ul>
+				</div>
+				<div class="col l6 m12  s12">
+					<h5 class="center">Sucursales</h5>
+					<ul class="col offset-l2">
+						<li>Cali: 321-6452637</li>
+						<li>Medellín: 300-6971106</li>
+						<li>Costa: 317-6450738</li>
+						<li>Bucaramanga: 304-6052422</li>
+						<li>Villavicencio: 310-7526573</li>
+						<li>Eje Cafetero: 310-3537059</li>
+						<li>Oficina Panamá: (507)64215743, (507)2097511</li>
+					</ul>
+				</div>
+       </div>
+     </div>
 </footer>

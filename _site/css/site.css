@@ -2008,15 +2008,18 @@ nav {
   height: 93%;
   padding-top: 100px;
   background-position: bottom;
-  background-image: url(/img/bogota1.jpg);
+  background-image: url(/img/bogota1.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
 #pitch {
   padding: 35px; }
 
+#benefits {
+  padding: 35px 35px 35px 35px; }
+
 footer {
-  margin-top: 20px;
+  margin-top: 0px;
   padding-top: 20px; }
 
 #pagelogo {
@@ -2028,6 +2031,9 @@ footer {
 
 span {
   background-color: rgba(69, 69, 62, 0.5); }
+
+ul {
+  list-style-type: circle; }
 
 html {
   box-sizing: border-box; }
