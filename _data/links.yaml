@@ -1,5 +1,5 @@
-app: http://174.129.235.64:8080/WebSiga2/faces/Login.xhtml
-app_general: http://174.129.235.64:8080/FincaRaiz/
+app: https://fincaraizsiga.com/WebSiga2/faces/Login.xhtml
+app_general: https://fincaraizsiga.com/FincaRaiz/
 app_store: 
 google_play: 
 support_email: galeriamas@hotmail.com
